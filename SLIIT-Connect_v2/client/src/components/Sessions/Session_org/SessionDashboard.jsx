@@ -234,7 +234,7 @@ const fetchData = async () => {
 
                                 <div className="card-content">
                                     
-                                    <h1 className="card-title"><b>name:</b> {data.Name}</h1>
+                                    <h1 className="card-title"><b>name :</b> {data.Name}</h1>
                                     <h1 className="card-description"><b>Description: </b>{data.Description}</h1>
                                     <h1 className="card-description"><b>Year: </b>{data.Year}</h1>
                                     <h1 className="card-description"><b>Semester: </b>{data.Semester}</h1>
