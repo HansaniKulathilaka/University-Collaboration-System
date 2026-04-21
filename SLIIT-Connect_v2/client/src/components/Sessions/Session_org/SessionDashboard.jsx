@@ -136,8 +136,6 @@ const fetchData = async () => {
      <div style={containerStyle}>
         <div style={{ display: "flex", height: "100vh", width:"100%" }}>
       
-
-      {/* Main Content */}
       
       <div
         style={{
@@ -146,6 +144,8 @@ const fetchData = async () => {
           padding:"40px",
         }}
       >
+
+        
         <h1>Session Dashboard</h1>
         <div style={{ width: "80%", display: "flex", justifyContent: "flex-end", /*marginBottom: "20px",*/ marginTop:"36px", marginRight:"500px"}}>
     <button style={buttonStyle}
@@ -260,7 +260,7 @@ const fetchData = async () => {
                             </motion.div>
                         ))
                     ) : (
-                        <p>No records available</p>
+                        <p>No available records </p>
                     )}</div>
                     
                     <br></br>

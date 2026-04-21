@@ -138,18 +138,7 @@ const locationData = {
 
 
 
-
-/*const savedState = JSON.parse(localStorage.getItem("editState") || "{}");
-  const defaultInputs = {
-    Name: "",
-             Description: "",
-             Year: "",
-             Semester: "",
-             Module: "",
-             Date: ""
-  };*/
-
-//useEffect
+//UseEffect for
       useEffect(() => {
   window.scrollTo({ top: 0, behavior: "smooth" });
 }, [currentStep]);
